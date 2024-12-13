@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../style/style.css';
 
 const Body = () => {
   return (
@@ -6,11 +7,10 @@ const Body = () => {
     <section class="section container container-center">
         <h1>About me : </h1>
         <p>
-            I'm a 2021 B-Tech graduate, currently working in Fidelity International as <b>Sofware Engineer-1 </b> and an <b><a href="https://www.credly.com/badges/b259c09e-8575-44a0-a4a9-34e161522130?source=linked_in_profile">AWS certified cloud practitioner.</a></b>
+            I'm a 2021 B-Tech graduate, currently working in Fidelity International as <b>Sofware Engineer-2 </b> and an <b><a href="https://www.credly.com/badges/b259c09e-8575-44a0-a4a9-34e161522130?source=linked_in_profile">AWS certified cloud practitioner.</a></b>
             Driven by a strong passion for Web development and learning about cloud services, I am dedicated to honing my skills and creating exceptional
             user
-            experiences. I'm familiar with React.JS, Express.JS, Node.JS, AWS (IAM, Cloudwatch), Django, HTML5, CSS3,
-            Android Dev, and Git.
+            experiences. I'm familiar with React.JS, Express.JS, Node.JS, AWS (IAM, Cloudwatch), Django, HTML5, CSS3, and Git.
         </p>
 
     </section>

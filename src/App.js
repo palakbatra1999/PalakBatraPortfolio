@@ -1,17 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header';
-import Navigation from './Components/Navigation';
-import Body from './Components/Body';
-import Footer from './Components/Footer';
+import Projects from './Components/Projects';
+import Blog from './Components/Blog';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Header/>
-      <Body/>
-      <Footer/>
+    <Router>
+    <Routes>
+          <Route path="/" element={<Home />} /> {/* Home route */}
+          <Route path="/projects" element={<Projects />} /> {/* Projects route */}
+          <Route path="/blog" element={<Blog />} /> {/* About route */}
+        </Routes>
+    </Router>
     </div>
   );
 }

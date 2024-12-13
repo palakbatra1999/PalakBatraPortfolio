@@ -14,10 +14,10 @@ const Navigation=()=> {
                 <a class="link" id="link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link " href="/src/projects.html">Projects</a>
+                <a class="link " href="/projects">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link " href="/src/blog.html">Blogs</a>
+                <a class="link " href="blog">Blogs</a>
             </li>
         </ul>
     </nav>
