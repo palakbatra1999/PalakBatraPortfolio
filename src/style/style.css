@@ -5,14 +5,29 @@
   --off-white-color: rgba(231, 214, 249, 0.795);
 }
 
-body {
+html,body {
   font-family: "Poppins", sans-serif;
-  margin: 0rem;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
+.App{
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .header {
   text-align: center;
 }
+
+.main-content{
+  flex:1;
+}
+
+
 
 /**head{
     font-family: 'Poppins', sans-serif;
@@ -87,7 +102,7 @@ button {
 #nav-name {
   font-size: x-large;
   font-weight: bold;
-  padding-top: 1rem;
+  padding: 3rem 2rem;
 }
 
 .nav-items {
@@ -98,11 +113,10 @@ nav a {
   color: white;
 }
 
-#link-active {
-  background-color: white;
-  color: var(--primary-color);
-  font-weight: bolder;
-  padding: 0.3rem;
+.link-active {
+  color: rgba(215, 191, 240, 0.795); /* Highlight color */
+  font-weight: bold;
+  border-bottom: 2px solid rgba(231, 214, 249, 0.795); /* Example underline */
 }
 
 /* header */
@@ -110,13 +124,13 @@ nav a {
   margin-bottom: 2rem;
 }
 .intro {
+  justify-content: space-evenly;
   padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
   text-align: left;
   max-width: 90%;
   margin: auto;
-  background-color: rgba(98, 96, 97, 0.13);
+  background-color: rgba(156, 153, 154, 0.13);
   color: var(--primary-color);
 }
 
@@ -139,9 +153,14 @@ nav a {
 .section {
   text-align: center;
   padding: 2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
   border-radius: 1rem;
-  max-width: 80%;
-  transition: transform .6s;
+  max-width: 80%; /* Sets the maximum width the section can take */
+  width: 1000px; /* Sets a fixed width */
+  overflow-wrap: break-word; /* Ensures words break to fit inside the box */
+  white-space: normal; /* Allows content to wrap */
+  transition: transform 0.6s;
 }
 
 
@@ -165,11 +184,14 @@ nav a {
   margin: auto;
 }
 
+
 /* footer */
 .footer {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 0.5rem 1rem;
+  padding: 10px 0;
+  color: white;
+  width: 100%;
 }
 .footer-header {
   font-weight: bold;

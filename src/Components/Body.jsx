@@ -34,7 +34,7 @@ const Body = () => {
     through a range of projects. These projects serve as a testament to my ability to leverage my capabilities.
 </p>
 <div id="buttons">
-    <a class="link link-primary" href="/src/projects.html">See Projects
+    <a class="link link-primary" href="/projects">See Projects
     </a>
 </div>
 
@@ -48,7 +48,7 @@ const Body = () => {
             give them a read and share your valuable feedback with me.
         </p>
         <div class="buttons">
-            <a class="link link-secondary" href="/src/blog.html">Read Blogs</a>
+            <a class="link link-secondary" href="/blog">Read Blogs</a>
         </div>
     </section>
     </>

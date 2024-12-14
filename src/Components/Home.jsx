@@ -8,10 +8,14 @@ import '../style/style.css';
 const Home = () => {
   return (
     <>
-     <Navigation/>
+   <div className='App'>
+   <div className='main-content'>
+    <Navigation/>
       <Header/>
       <Body/>
+    </div>
       <Footer/>
+   </div>
     </>
   )
 }
