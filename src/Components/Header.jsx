@@ -5,7 +5,7 @@ import "../style/style.css";
 const Header = () => {
   return (
     <>
-      <header class="intro ">
+      <header class="intro">
         <div class="intro-text">
           <h1 class="intro-heading">
             Hi!

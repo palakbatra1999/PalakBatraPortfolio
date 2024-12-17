@@ -5,6 +5,11 @@ const ProjectsBody = () => {
   return (
     <>
 
+<header class="headers">
+        <img alt="" class="img" src="/img/code.svg" />
+        <img alt="" class="img" src="/img/static_assets_rpm6.svg" />
+    </header>
+
 <section class=" section container ow container-center">
         <h1>Expense Manager</h1>
           <div class="icon">

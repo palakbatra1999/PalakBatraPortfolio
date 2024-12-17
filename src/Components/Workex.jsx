@@ -31,8 +31,9 @@ const Workex = () => {
   <Navigation/>
  
   <section id="work-experience" class="work-experience"> 
-  <div>Skills I have </div>
-  <div>
+  
+  <div className="skill-tag">
+  <div >Skills I have </div>
   <div className="tech-chips">
   <span className="chip">React.js</span>
   <span className="chip">Node.js</span>
@@ -60,14 +61,16 @@ const Workex = () => {
     <div class="timeline-item ">
       <div class="timeline-dot"></div>
       <div class="timeline-content section ">
-        <h3>software Developer-2</h3>
+        <h3>Software Engineer-2</h3>
         <h4>Fidelity International</h4>
-        <p class="duration">Jan 2023 - Present</p>
+        <p class="duration">Jan 2024 - Present</p>
         <ul>
-          <li>Developed micro frontends using React and Node.js.</li>
-          <li>Integrated backend APIs to create seamless user experiences.</li>
-          <li>Optimized UI performance for faster load times.</li>
-          <li>Collaborated with cross-functional teams to deliver features on time.</li>
+          <li>Developed a micro-frontend integrated with Fidelity’s website to display fund investment projections and enable
+          CSV downloads using the MERN stack, AWS Lambda, API Gateway, and Terraform.</li>
+          <li> Created core features such as export functionality, pagination, and seamless multi-platform integration.</li>
+          <li>Optimized an API for DynamoDB by implementing parallel request handling, reducing response time from 4
+          seconds to 1–2 seconds and enhancing user experience by 50%</li>
+         
         </ul>
         <p class="tech">Technologies: React, Node.js, JavaScript, AWS, Git, Jenkins</p>
       </div>
@@ -79,28 +82,31 @@ const Workex = () => {
       <div class="timeline-content section ">
         <h3>Software Engineer-1</h3>
         <h4>Fidelity International</h4>
-        <p class="duration">Jul 2021 - Dec 2022</p>
+        <p class="duration">Oct 2022 - Dec 2023</p>
         <ul>
-          <li>Built and maintained RESTful APIs with Express.js and MongoDB.</li>
-          <li>Developed serverless solutions using AWS Lambda and API Gateway.</li>
-          <li>Ensured high availability and security of applications.</li>
-          <li>Utilized Docker for containerization and deployment.</li>
+          <li>Contributed to a MERN stack-based micro frontend to digitize fund and account document delivery for Fidelity
+          customers, streamlining document access.</li>
+          <li> Owned and optimized critical features, including APIs for fetching categories and accounts, ensuring smooth UI
+          display, and wrote comprehensive frontend unit tests to guarantee flawless functionality.</li>
+          <li>Wrote all the unit test cases using Jest and achieved the 100% test coverage independently.</li>
         </ul>
-        <p class="tech">Technologies: Express.js, MongoDB, AWS, Docker, Git</p>
+        <p class="tech">Technologies: REact.JS, Node.JS Express.js, MongoDB, AWS, Docker, Git</p>
       </div>
     </div>
 
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-content section">
-        <h3>Graduate Programmer associate</h3>
+        <h3>Graduate Programmer Associate</h3>
         <h4>Fidelity International</h4>
         <p class="duration">Jul 2021 - Dec 2022</p>
         <ul>
-          <li>Built and maintained RESTful APIs with Express.js and MongoDB.</li>
-          <li>Developed serverless solutions using AWS Lambda and API Gateway.</li>
-          <li>Ensured high availability and security of applications.</li>
-          <li>Utilized Docker for containerization and deployment.</li>
+            <li> Developed a multithreaded script to automate start/stop of 40 applications, reducing time from 1.5 hours to 5
+            minutes.</li>
+          <li> Developed a Python Django web app to detect discrepancies in Fidelity fund factsheets by comparing data from
+          Fidelity’s and Morningstar’s APIs, automatically flagging inconsistencies using Morningstar’s data.</li>
+          <li>Designed three intuitive screens presenting discrepancies in tabular, pie chart, and diagram formats, enhancing
+          data visualization for business users and significantly reducing manual effort.</li>
         </ul>
         <p class="tech">Technologies: Express.js, MongoDB, AWS, Docker, Git</p>
       </div>

@@ -1,16 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap");
 
 :root {
-  --primary-color: rgb(34, 34, 34);
-  --off-white-color: rgba(239, 170, 109, 0.795);
+  --primary-color: #2E2E2E;
+  --accent-color: #FF7A59; 
+  --highlight-color: #5DADE2;
+  --light-gray: #FAFAFA;
 }
+
 
 html,body {
   font-family: "Poppins", sans-serif;
   height: 100%;
   margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;padding-top: 60px;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #555;
+  line-height: 1.8;
 }
 
 .App{
@@ -25,6 +40,11 @@ html,body {
 
 .main-content{
   flex:1;
+}
+
+.headers{
+  text-align: center;
+  margin-top: 10px;
 }
 
 
@@ -91,26 +111,47 @@ button {
   font-weight: bold;
 }
 
-/* navigation */
 .navigation {
   background-color: var(--primary-color);
-  padding: 0.5rem 1rem 0rem;
-  /* display: flex; */
-  /* position: fixed; */
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed; /* Fix the navigation bar at the top */
+  top: 0; /* Position at the very top */
+  left: 0;
+  width: 100%; /* Full-width */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+#nav-name {
+  font-family: 'Poppins', sans-serif; /* Choose a clean, modern font */
+  font-size: 1.5rem; /* Slightly smaller font size */
+  font-weight: 600; /* Semi-bold weight */
+  letter-spacing: 1px; /* Spacing between letters */
+  color: var(--accent-color); /* A color that complements the theme */
+  padding: 1rem; /* Add more padding around the text */
+  text-transform: uppercase; /* Optional: Make it all caps */
+  
 }
 
-#nav-name {
-  font-size: x-large;
-  font-weight: bold;
-  padding: 3rem 2rem;
+#nav-name:hover{
+  color: var(--accent-color);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
 }
 
 .nav-items {
   text-align: right;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
   color: white;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .link-active {
@@ -123,7 +164,28 @@ nav a {
 .header {
   margin-bottom: 2rem;
 }
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background: #f1f1f1;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.skill-tag:hover {
+  background: #ff7043;
+  color: white;
+}
+
 .intro {
+  background: linear-gradient(135deg, #f9f9f9, #e8e8e8);
+  padding: 4rem 1rem;
+  text-align: center; /* Center align the text */
   justify-content: space-evenly;
   padding: 2rem;
   display: flex;
@@ -132,6 +194,34 @@ nav a {
   margin: auto;
   background-color: rgba(156, 153, 154, 0.13);
   color: var(--primary-color);
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+.into h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.into p {
+  color: #555;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -144,21 +234,21 @@ nav a {
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-top: 10px;
-  background-color: rgba(18, 15, 15, 0.795);
+  background-color: var(--accent-color);
   color: white;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s, transform 0.2s;
 }
+
+
 
 .resume-button:hover {
-  background-color: rgba(239, 170, 109, 0.795);
-  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
-
-
 
 .intro-heading {
 }
@@ -172,20 +262,19 @@ nav a {
 .section {
   text-align: center;
   padding: 2rem;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 2rem auto;
+  max-width: 800px;
   border-radius: 1rem;
-  max-width: 80%; /* Sets the maximum width the section can take */
-  width: 1000px; /* Sets a fixed width */
   overflow-wrap: break-word; /* Ensures words break to fit inside the box */
   white-space: normal; /* Allows content to wrap */
   transition: transform 0.6s;
+  
 }
 
 
 
 .ow {
-  background-color: var(--off-white-color);
+  background-color: rgba(230, 175, 127, 0.795);
 }
 .section:hover{
    transform: scale(1.1);
@@ -200,12 +289,15 @@ nav a {
   display: inline-block;
   padding: 0.5rem 1rem;
   margin: 0.3rem;
-  background-color: #1a1918;
-  color: white;
-  border-radius: 1rem;
+  background-color: #FFF;
+  color: var(--primary-color);
+  border: 1px solid var(--highlight-color);
+  border-radius: 1.5rem;
   font-size: 0.9rem;
   font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 
 
@@ -231,81 +323,109 @@ nav a {
 /* Timeline Container */
 .timeline {
   position: relative;
-  max-width: 800px;
-  margin: auto;
+  max-width: 100%;
+  margin: 4rem auto; /* Space it from other sections */
   padding: 1rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: var(--light-gray); /* Light gray for the timeline line */
+  transform: translateX(-50%);
+}
+
+/* Timeline Dot */
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 
 /* Timeline Item */
 .timeline-item {
   position: relative;
-  padding: 1.5rem 0;
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  animation: slideInLeft 1s ease-out;
+  padding: 1.5rem 0;
+  width: 100%;
+  animation: fadeInUp 0.8s ease-in-out;
 }
 
-.timeline-dot {
-  width: 20px;
-  height: 20px;
-  background-color: rgba(202, 100, 11, 0.795);
-  border-radius: 50%;
-  position: absolute;
-  left: -10px;
-  top: 0;
-  transition: all 0.3s ease-in-out;
+.timeline-item.left {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.timeline-item.right {
+  text-align: left;
 }
 
 .timeline-content {
-  margin-left: 40px;
-  background: #fff;
-  padding: 1rem;
+  background: var(--light-gray);
+  padding: 1.5rem;
+  width: 45%;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.8s forwards 0.2s;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
-
+.timeline-content:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 
 .timeline-content h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
 }
 
 .timeline-content h4 {
-  font-size: 1.1rem;
-  color: #888;
-}
-
-.timeline-content .duration {
-  color: rgba(0, 0, 0, 0.795);
   font-size: 1rem;
-  margin: 10px 0;
+  color: var(--highlight-color);
+  margin-bottom: 0.5rem;
 }
 
-.timeline-content ul {
-  list-style: none;
-  padding-left: 1rem;
-}
-
-.timeline-content ul li {
+.timeline-content p {
+  color: #555;
   font-size: 1rem;
-  color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
 }
 
-.timeline-content .tech {
+.timeline-content .tech-stack {
+  color: var(--accent-color);
   font-size: 0.9rem;
-  color: rgba(202, 100, 11, 0.795);
-  margin-top: 10px;
+  margin-top: 0.5rem;
+}
+
+/* Alternate Positioning */
+.timeline-item.left .timeline-content {
+  margin-right: 55%;
+}
+
+.timeline-item.right .timeline-content {
+  margin-left: 55%;
 }
 
 .timeline-item:hover .timeline-dot {
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: var(--highlight-color);
 }
 
+/* Keyframes */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -316,6 +436,7 @@ nav a {
     transform: translateY(0);
   }
 }
+
 
 @keyframes slideInLeft {
   0% {
@@ -334,9 +455,23 @@ nav a {
 .footer {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 10px 0;
+ 
   color: white;
   width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.footer a:hover {
+  color: white;
+}
+
+
+.footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s;
 }
 .footer-header {
   font-weight: bold;
@@ -351,3 +486,5 @@ footer ul {
   max-width: 100%;
   width: 2em;
 }
+
+

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <footer class="footer">
-        <div class="footer-header">Get in Touch</div>
+    <p>© 2024 Palak Batra. All Rights Reserved.</p>
         <ul class="social-links ">
             <li class="list-item-inline">
                 <a class="link" href="https://github.com/palakbatra1999">

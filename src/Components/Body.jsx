@@ -4,7 +4,7 @@ import '../style/style.css';
 const Body = () => {
   return (
     <>
-    <section class="section container container-center">
+    <section class="section container container-center about-me">
         <h1>About me : </h1>
         <p>
             I'm a 2021 B-Tech graduate, currently working in Fidelity International as <b>Sofware Engineer-2 </b> and an <b><a href="https://www.credly.com/badges/b259c09e-8575-44a0-a4a9-34e161522130?source=linked_in_profile">AWS certified cloud practitioner.</a></b>

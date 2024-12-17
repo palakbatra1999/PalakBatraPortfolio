@@ -5,6 +5,11 @@ import '../style/style.css';
 const BlogBody = () => {
   return (
    <>
+    <header class="headers">
+        
+        <img class="img" src="/img/Blog-cover.svg" />
+    </header>
+    <br />
     <section class=" section ow container container-center">
         <h1>How to deploy your MERN project for free using Render.</h1>
         <p>
