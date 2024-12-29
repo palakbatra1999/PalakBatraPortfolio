@@ -14,16 +14,17 @@ const ProjectsBody = () => {
         <h1>Expense Manager</h1>
           <div class="icon">
             <b>Tech Stack :</b>
-            <img alt="Android" src="https://img.icons8.com/ios-glyphs/30/000000/react.png" />
-              <img alt="Android" src="https://img.icons8.com/ios-glyphs/30/000000/html.png" />
-              <img alt="Android" src="https://img.icons8.com/ios-glyphs/30/000000/javascript" />
-               <img alt="Android" src="https://img.icons8.com/metro/26/css.png" />
+            <img alt="React" src="https://img.icons8.com/ios-glyphs/30/000000/react.png" />
+            <img alt="TypeScript" src="https://img.icons8.com/material-rounded/24/typescript.png" />
+              <img alt="HTML" src="https://img.icons8.com/ios-glyphs/30/000000/html.png" />
+              <img alt="Javascript" src="https://img.icons8.com/ios-glyphs/30/000000/javascript" />
+               <img alt="CSS" src="https://img.icons8.com/metro/26/css.png" />
             </div>
-        <p>To manage your expenses to help users track and manage their financial transactions.</p>
+        <p>To help track and manage their financial transactions.</p>
 
         <div class="buttons">
             <a class=" link link-primary" target="_blank"
-                href="https://expensemanager-aqup.onrender.com">Expense Manager
+                href="https://expense-manager-pxy3sny9w-palak-batras-projects-4f2e2cbf.vercel.app/">Ease Expense
             </a>
         </div>
     </section>
