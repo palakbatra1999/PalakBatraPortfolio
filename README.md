@@ -49,6 +49,7 @@ Follow these steps to run the project locally:
 
 **Project structure**: 
 
+```graphQL
 portfolio/
 ├── public/           # Public assets like images and favicon
 ├── src/
@@ -59,3 +60,4 @@ portfolio/
 │   ├── index.js      # Application entry point
 ├── package.json      # Project dependencies and scripts
 └── README.md         # Documentation
+
