@@ -24,7 +24,7 @@ const ProjectsBody = () => {
 
         <div class="buttons">
             <a class=" link link-primary" target="_blank"
-                href="https://expense-manager-pxy3sny9w-palak-batras-projects-4f2e2cbf.vercel.app/">Ease Expense
+                href="https://expense-manager-two-azure.vercel.app/">Ease Expense
             </a>
         </div>
     </section>
