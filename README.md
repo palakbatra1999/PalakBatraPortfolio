@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project showcases my professional journey, skills, projects, and achievements in a beautifully designed and interactive platform. Explore my work, learn about my experience, and feel free to connect!
 
-## 🌟 **Live Demo**
+## 🌟 **Live Demo ::**
 Visit the live website here: [Palak Batra Portfolio](https://palak-batra-portfolio.vercel.app/projects)
 
 ---
