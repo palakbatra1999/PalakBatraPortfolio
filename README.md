@@ -7,7 +7,7 @@ Visit the live website here: [Palak Batra Portfolio](https://palak-batra-portfol
 
 ---
 
-## 📋 **Features**
+## 📋 **Features::**
 
 - **Home Section**: A dynamic and welcoming introduction with a clean layout.
 - **Projects Showcase**: A detailed display of my key projects, including technologies used and live demos.
