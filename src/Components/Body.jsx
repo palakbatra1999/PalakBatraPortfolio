@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/style.css';
-
+import HeroBadge from './HeroBadge';
 const Body = () => {
   return (
     <>
@@ -14,8 +14,11 @@ const Body = () => {
         </p>
 
     </section>
+    <HeroBadge/>
 
     <section class="section ow container container-center">
+
+       
 
 <h1>Projects</h1>
 <div class="icon">
