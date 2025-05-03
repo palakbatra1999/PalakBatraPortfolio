@@ -2,7 +2,7 @@ import {React, useEffect, useState} from 'react'
 import Footer from './Footer';
 import '../style/style.css';
 import Navigation from './Navigation';
-
+import { motion } from 'framer-motion';
 
 
 const Workex = () => {
@@ -56,6 +56,27 @@ const Workex = () => {
     </div>
 
   </div>
+  <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+      className="hackathon-highlight"
+    >
+      <h3 className="highlight-title">🏆 Hackathon Winner</h3>
+      <p className="highlight-description">
+        Won <strong>GC Hackathon</strong> in April 2025 by building a <strong>real-time collaborative tool</strong> using React, Java. Worked with a team of 4 and clinched 1st place!
+      </p>
+      <a
+        href="certificate_hack.pdf" // Replace with the actual link to your certificate
+        target="_blank"
+        rel="noopener noreferrer"
+        className="highlight-certificate"
+      >
+        📄 View Certificate
+      </a>
+    </motion.div>
+
+
   <div  className={`timeline ${scrolling ? "scrolled" : ""}`} >
     
     <div class="timeline-item ">
