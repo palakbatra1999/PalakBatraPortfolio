@@ -82,9 +82,22 @@ const Workex = () => {
     <div class="timeline-item ">
       <div class="timeline-dot"></div>
       <div class="timeline-content section ">
+        <h3>Software Engineer-3</h3>
+        <h4>Company Name</h4>
+        <p class="duration">TBD</p>
+        <ul>
+          <li>Work details will be added later.</li>
+        </ul>
+        <p class="tech">Technologies: To be updated</p>
+      </div>
+    </div>
+
+    <div class="timeline-item ">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content section ">
         <h3>Software Engineer-2</h3>
         <h4>Fidelity International</h4>
-        <p class="duration">Jan 2024 - Present</p>
+        <p class="duration">Jan 2024 - May 2026</p>
         <ul>
           <li>Developed a micro-frontend integrated with Fidelity’s website to display fund investment projections and enable
           CSV downloads using the MERN stack, AWS Lambda, API Gateway, and Terraform.</li>

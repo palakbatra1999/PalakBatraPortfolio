@@ -14,9 +14,9 @@ const Header = () => {
             </div>
           </h1>
           <p>
-            an experienced Full-Stack Developer with expertise in creating
-            end-to-end web applications. I like to make solid and scalable web
-            products with great user experience.
+           a 2021 B.Tech graduate and Software Engineer II at Fidelity International, with 4+ years of experience building scalable applications, backend services, and cloud-native solutions.
+My expertise spans full-stack development, working with technologies like Java, Spring Boot, React.js, Node.js, and AWS. I've worked on microservices, Kubernetes migrations, CI/CD automation, and AI-powered workflow solutions, with a strong interest in building intelligent applications using emerging AI technologies.
+I'm an AWS Certified Cloud Practitioner, passionate about continuous learning, solving real-world engineering problems, and building technology that makes a meaningful impact.
           </p>
          
         </div>
