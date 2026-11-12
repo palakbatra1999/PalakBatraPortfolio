@@ -23,7 +23,7 @@ const ProjectsBody = () => {
         <p>To help track and manage their financial transactions.</p>
 
         <div class="buttons">
-            <a class=" link link-primary" target="_blank"
+            <a class=" link link-primary" target="_blank" rel="noreferrer"
                 href="https://expense-manager-two-azure.vercel.app/">Ease Expense
             </a>
         </div>
@@ -41,7 +41,7 @@ const ProjectsBody = () => {
         <p>Play a fun refreshing game!</p>
 
         <div class="buttons">
-            <a class=" link link-primary" target="_blank"
+            <a class=" link link-primary" target="_blank" rel="noreferrer"
                 href="https://palakbatra1999.github.io/TicTacToe/">Dare to win?
             </a>
         </div>
@@ -59,7 +59,7 @@ const ProjectsBody = () => {
         <p>Make sure you don't forget anything important on your list with this App.</p>
     
         <div class="buttons">
-            <a class="link link-primary" target="_blank" href="https://palakbatra1999.github.io/todoapp/">Todo App
+            <a class="link link-primary" target="_blank" rel="noreferrer" href="https://palakbatra1999.github.io/todoapp/">Todo App
             </a>
         </div>
     </section>
@@ -90,7 +90,7 @@ const ProjectsBody = () => {
             Coronavirus (COVID-19) Tracker App Using REST API & Volley Library.
         </p>
         <div class="buttons">
-            <a class="link link-primary" target="_blank" href="https://github.com/palakbatra1999/Covid19Tracker">Source Code</a>
+            <a class="link link-primary" target="_blank" rel="noreferrer" href="https://github.com/palakbatra1999/Covid19Tracker">Source Code</a>
         </div>
     </section>
     

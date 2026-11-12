@@ -7,7 +7,7 @@ const BlogBody = () => {
    <>
     <header class="headers">
         
-        <img class="img" src="/img/Blog-cover.svg" />
+        <img alt="Blog cover" class="img" src="/img/Blog-cover.svg" />
     </header>
     <br />
     <section class=" section ow container container-center">
@@ -16,7 +16,7 @@ const BlogBody = () => {
             Your one-stop guide for deploying a MERN (MongoDB, Express, React, Node.js) stack on Heroku  for free.
         </p>
         <div class="button">
-            <a class="link link-primary" target="_blank" href="https://palakbatra.hashnode.dev/deploying-your-mern-stack-project-for-free">Read Blog
+            <a class="link link-primary" target="_blank" rel="noreferrer" href="https://palakbatra.hashnode.dev/deploying-your-mern-stack-project-for-free">Read Blog
             </a>
         </div>
     </section>
@@ -28,7 +28,7 @@ const BlogBody = () => {
             beginners understand this important concept and apply in their styling.
         </p>
         <div class="button">
-            <a class="link link-primary" target="_blank" href="https://palakbatra.hashnode.dev/css-box-model-for-a-5-year-old">Read Blog
+            <a class="link link-primary" target="_blank" rel="noreferrer" href="https://palakbatra.hashnode.dev/css-box-model-for-a-5-year-old">Read Blog
             </a>
         </div>
     </section>
@@ -38,7 +38,7 @@ const BlogBody = () => {
             Tried answering why most of the websites we see on the internet end with .com.
         </p>
         <div class="button">
-            <a class="link link-primary" target="_blank" href="https://palakbatra.hashnode.dev/why-do-websites-end-with-com">Read Blog
+            <a class="link link-primary" target="_blank" rel="noreferrer" href="https://palakbatra.hashnode.dev/why-do-websites-end-with-com">Read Blog
             </a>
         </div>
     </section>

@@ -83,12 +83,12 @@ const Workex = () => {
       <div class="timeline-dot"></div>
       <div class="timeline-content section ">
         <h3>Software Engineer-3</h3>
-        <h4>Company Name</h4>
-        <p class="duration">TBD</p>
+        <h4>Fidelity International</h4>
+        <p class="duration">April 2026 - Present</p>
         <ul>
-          <li>Work details will be added later.</li>
+          <li>Built and deployed a backend service using Node.js to enable a paperless toggle feature for the FAS FIL website, deployed on AWS.</li>
         </ul>
-        <p class="tech">Technologies: To be updated</p>
+        <p class="tech">Technologies: React, Node.js, JavaScript, AWS, Git, Jenkins</p>
       </div>
     </div>
 
